@@ -1,6 +1,6 @@
 describe('Weekly booking', function () {
 
-    it("should return the normal booking costs for weekly days exept Wednesday and Friday", function () {
+    it("should return the normal booking costs for weekly days exept on Wednesday's and Friday's", function () {
 
         assert.equal(135.00, bookingCost({ check_in_day: 'Monday', duration: 3, cat_name : 'Snowy'}));
 
