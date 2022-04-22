@@ -7,7 +7,7 @@ body {
 	display: flex;
 	flex-flow: column wrap;
     padding-left: 1em;
-    background-color: #358f80;
+    background-color: #99e2b4
 }
 .container > * {
 	padding: 10px;
@@ -65,21 +65,19 @@ body {
 }
 
 .adoptcat {
-    background-color: #56ab91;
+    background-color: #88d4ab;
     padding-right: 1em;
     padding-left: 1em;
 }
 .corporatecat {
-    background-color: #469d89;
+    background-color: #78c6a3;
     padding-right: 1em;
     padding-left: 1em;
 }
 .aboutus {
     text-align: center;
 }
-.aboutmessage {
-    background-color: #358f80;
-}
+
 
 @media (max-width: 950px){
     .catsnames {
