@@ -1,0 +1,97 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #774936;
+    font-size: 1.2em;
+}
+.container {
+	display: flex;
+	flex-flow: column wrap;
+    padding-left: 1em;
+    background-color: #edc4b3;
+}
+.container > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+.welcome {
+    text-align: center;
+}
+.cats h2 {
+    text-align: center;
+}
+.catsnames {
+    display: flex;
+}
+.catsnames div {
+    flex: 1;
+}
+.catsnames img {
+    height: 8em;
+    width: 13em;
+    float: left;
+    padding: 0.5em;
+}
+.cat_snowey {
+    background-color: #d69f7e;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.cat_paws {
+    background-color: #cd9777;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.cat_patsie {
+    background-color: #c38e70;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.events h2 , .cat_paws {
+    text-align: center;
+}
+
+.eventstypes {
+    display: flex;
+}
+
+.eventstypes div {
+    flex: 1;
+}
+.eventstypes img {
+    height: 8em;
+    width: 13em;
+    float: right;
+    padding: 0.5em;
+}
+
+.adoptcat {
+    background-color: #d69f7e;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.corporatecat {
+    background-color: #cd9777;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.aboutus {
+    text-align: center;
+}
+.aboutmessage {
+    background-color: #d69f7e;
+}
+
+@media (max-width: 950px){
+    .catsnames {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .eventstypes {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .cats h3, .eventstypes h3 {
+        text-align: center;
+    }
+}
