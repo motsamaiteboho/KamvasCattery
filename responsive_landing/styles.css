@@ -79,7 +79,7 @@ body {
 }
 
 
-@media (max-width: 950px){
+@media all and (max-width: 950px){
     .catsnames {
         display: flex;
         flex-flow: column wrap;
