@@ -1,13 +1,13 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #774936;
+    color: #272640;
     font-size: 1.2em;
 }
 .container {
 	display: flex;
 	flex-flow: column wrap;
     padding-left: 1em;
-    background-color: #edc4b3;
+    background-color: #358f80;
 }
 .container > * {
 	padding: 10px;
@@ -32,17 +32,17 @@ body {
     padding: 0.5em;
 }
 .cat_snowey {
-    background-color: #d69f7e;
+    background-color: #88d4ab;
     padding-right: 1em;
     padding-left: 1em;
 }
 .cat_paws {
-    background-color: #cd9777;
+    background-color: #78c6a3;
     padding-right: 1em;
     padding-left: 1em;
 }
 .cat_patsie {
-    background-color: #c38e70;
+    background-color: #67b99a;
     padding-right: 1em;
     padding-left: 1em;
 }
@@ -65,12 +65,12 @@ body {
 }
 
 .adoptcat {
-    background-color: #d69f7e;
+    background-color: #56ab91;
     padding-right: 1em;
     padding-left: 1em;
 }
 .corporatecat {
-    background-color: #cd9777;
+    background-color: #469d89;
     padding-right: 1em;
     padding-left: 1em;
 }
@@ -78,7 +78,7 @@ body {
     text-align: center;
 }
 .aboutmessage {
-    background-color: #d69f7e;
+    background-color: #358f80;
 }
 
 @media (max-width: 950px){
